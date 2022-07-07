@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# File: even_or_odd.sh
+
+if [[ expr $1%2 eq 0 ]]
+then
+        echo "Even number"
+else
+        echo "Odd number"
+fi
